@@ -223,7 +223,7 @@ class SalesforceToS3Operator(BaseOperator):
                 replace=True
             )
 
-            dest_s3.connection.close()
+            # dest_s3.connection.close()
 
             tmp.close()
 
